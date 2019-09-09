@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Premier post !"
+date:   2019-09-10 00:12:07 +0200
+categories: jekyll update
+---
+Rien d'autre à dire.
+
+{% highlight csharp %}
+public static void Combinatorics() {
+	var repository = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "AnimaTest");
+	var programme = new Combinatorics(new WorkFolder(repository));
+	var reflecteur = new Reflecteur("Testeur", 40, 150);
+	reflecteur.ExposerMethodes(programme);
+}
+{% endhighlight %}
