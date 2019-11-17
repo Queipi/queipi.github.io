@@ -1,0 +1,20 @@
+dear dr zdun
+
+For the last two monthes, I have been reading some of the publications of your group, as well as reflecting on my own area of interest and how to best define it. 
+I will expand a bit on this, in order to give you a better idea of what I'm aiming at and how I can best contribute to your group (and whether I'm indeed suited.)
+
+During our conversation, you said I had interest in a variety of subjects across the field of Computer Science, but I believe I'm actually focusing on a very precise thema: the fundamentals of software design. 
+It just appear to me that the same issues and  the same solutions occur in a lot of differents areas in our field, without having been adressed in a common framework, to my knowledge at least.
+The underlying challenges in composing the architecture of an application, designing the functions in a module or organizing files and folders seem to me to be one and the same.
+
+Now, of course, even if there is an underlying general theory, it should be studied and challenged in every of its particular application.
+Let it be clear that my motivation is to provide guidance and conceptual tools to developpers and architects for the decisions they have to take every day.
+
+Also, I do not claim to start from a blank state: my work and experience pushed me toward some ideas already.
+I do believe that the fundamental problem is about the separation of concerns, both vertically (levels of abstraction) and horizontally (segregation of responsabilities.)
+I usually refer to it as a trichotomy, since the separation of two previously intricated concerns is not possible without also defining the way they are coupled.
+Hence the atomic division is necessarily three-part.
+
+
+
+
