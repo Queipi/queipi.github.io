@@ -1,6 +1,0 @@
-#Interface Evolution Patterns - Balancing Compatibility and Extensibility across Service Life Cycles
-* Pattern language
-* API
-* Versioning
-
-#
