@@ -84,7 +84,7 @@
 
   .site-nav {
     float: right;
-    width: 80%;
+    //width: 80%;
     margin-top: $spacer0;
     justify-content: space-around;
     font-size: 1.25rem;
@@ -97,7 +97,7 @@
 
   .site-title {
     float: left;
-    width: 20%;
+    //width: 20%;
     text-align: inherit;
     margin-bottom: $spacer0;
   }
@@ -153,13 +153,13 @@
 
 // SITE FOOTER - RESPONSIVE ------------------
 @include mq-up(sm) {
-  .site-contact {
+  .site-source {
     float: right;
     width: 50%;
     text-align: right;
   }
 
-  .site-source {
+  .site-contact {
     float: left;
     width: 50%;
   }

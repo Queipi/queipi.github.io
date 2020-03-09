@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About this site
 subtitle: I am a smart heading.
 desc: About me.
 permalink: /about/
