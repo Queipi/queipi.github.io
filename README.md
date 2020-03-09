@@ -1,69 +1,58 @@
-## You like and use this theme? Then support me. Just [paypal.me/PhlowMedia](https://www.paypal.me/PhlowMedia) :)
+# Jackal ![](https://img.shields.io/npm/l/express.svg?maxAge=2592000?style=flat-square)
+Jackal is a very lightweight theme for Jekyll.  
+Feel free to fork, change, modify and re-use it.
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Phlow&url=https://github.com/Phlow/feeling-responsive&title=Support%20Feeling%20Responsive%20Jekyll%20Theme&language=en_GB&tags=github,jekyll,theme,webdesign&category=software)
+### Screenshots
+![](https://cloud.githubusercontent.com/assets/447956/17020916/9ed9ce1a-4f44-11e6-80d5-26df9d219dd2.PNG)
+![](https://cloud.githubusercontent.com/assets/447956/17020915/9ed939f0-4f44-11e6-9e8e-3a8e5562b0da.PNG)
 
+# Usage
+Be sure to have both `jekyll` and `jekyll-paginate` gem installed.
 
-# Newsletter: Stay in Touch for Future Updates
+Than using your favorite terminal do:
 
-If you are a webdesigner interested in Jekyll, the static website generator, this little newsletter is for you. I share tutorials, clever code snippets and information about my own Jekyll Themes called [*Feeling Responsive*][7] and [*Simplicity*][8]. Please don't expect weekly emails :)
+```
+$ git clone git@github.com:clenemt/jackal.git
+$ cd jackal
+$ jekyll serve
+```
 
-[![Subscribe to Jekyll Newsletter](https://phlow.github.io/static/tinyletter_subscribe_button.png)](https://tinyletter.com/feeling-responsive)
+Jackal theme includes:
 
+* Intro page
+* About page
+* Articles, archives and pagination
+* Rss feed
+* Responsive & great typo
+* Code syntax highlighting
+* Google Analytics tracking code
 
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
+It can be seen in used at [clenemt.com](http://clenemt.com) or on [Github page](https://clenemt.github.io/jackal/).
 
-## A Responsive Jekyll Theme: *Feeling Responsive*
+## Options
+See the global template options inside `config.yml` first thing.
 
-Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+Jackal also supports the following Front Matter options,
 
-To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
+for **pages**:
+* title (the page title)
+* subtitle (the page h1)
+* desc (for a SEO description /= excerpt)
 
-And what license is *Feeling Responsive* released under? [This one][2].
+for **posts**:
+* microtitle (for a page title /= title)
+* desc (for a manual excerpt and SEO description)
 
+See [Front Matter](https://jekyllrb.com/docs/frontmatter/) and [configuration](https://jekyllrb.com/docs/configuration/) for more information.
 
+# Thanks
+Thanks to [Kactus](https://github.com/nickbalestra/kactus) and [jaicab]( https://github.com/jaicab/jaicab.github.io).
 
-## Why use this theme?
+# License
+Copyright (c) 2016 Jackal Authors - Released under the MIT License.
 
-Feeling Responsive is heavily customizable.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1. Language-Support :)
-2. Optimized for speed and it's responsive.
-3. Built on Foundation Framework.
-4. Six different Headers.
-5. Customizable navigation, footer,...
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**[More ›][3]**
-
-
-
-## Changelog
-
-*Feeling Responsive* is in active development. Thank you to everyone who contributed, especially [Róbert Papp][5], [Alexandra von Criegern](https://github.com/plutonik-a) and [Juan Jose Amor Iglesias](https://github.com/jjamor).
-
-**[Read Changelog ›][6]**
-
-
-
-## Video Tutorial
-
-Click the image to [watch the YouTube-Video-Tutorial][4].
-
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
-
-
-
-
-
-
-
-
- [1]: http://phlow.github.io/feeling-responsive/documentation/
- [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
- [3]: http://phlow.github.io/feeling-responsive/info/
- [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
- [5]: https://github.com/TWiStErRob
- [6]: https://phlow.github.io/feeling-responsive/changelog/
- [7]: http://phlow.github.io/feeling-responsive/
- [8]: http://phlow.github.io/simplicity/
- [9]: #
- [10]: #
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
